@@ -1,16 +1,17 @@
 {
-  "name": "lws-json-server-todos",
+  "name": "team26-json-server",
   "description": "Example in memory todos api with json-server by Learn with Sumit",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --no-cors true -m ./node_modules/json-server-auth  --port 9000"
+    
+    "start": "node index.js"
   },
   "dependencies": {
     "json-server": "^0.17.1",
     "json-server-auth": "^2.1.0"
   },
   "keywords": [],
-  "author": "Sumit Saha, Learn with Sumit",
+  "author": "Mohsin Reza Shohag",
   "license": "ISC"
 }

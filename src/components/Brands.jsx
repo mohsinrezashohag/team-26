@@ -1,5 +1,5 @@
 async function getData() {
-  const res = await fetch(`http://localhost:3000/brandList`)
+  const res = await fetch(`http://localhost:9000/brandList`)
   if (!res?.ok) {
     throw error('brands not loaded')
   }
