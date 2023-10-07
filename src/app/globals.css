@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Roboto Mono', monospace; 
+    text-transform: capitalize;
+}
+
+.our-services{
+background-image:  url(../public/bg-one.jpg);
+background-size: cover;
+opacity: 0.9;
+}
+.our-work-process{
+    background-image:  url(../public/bg-one.jpg);
+background-size: cover;
+opacity: 0.9;
+}
